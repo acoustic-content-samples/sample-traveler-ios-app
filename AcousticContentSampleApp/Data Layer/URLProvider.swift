@@ -13,8 +13,8 @@ import Foundation
 /// Provides all URLs and help methods.
 class URLProvider {
     
-    static let contentHubId = "87ddda39-ca3f-4357-9607-6a33e27884a5"
-    static let domainName = "https://content-us-7.content-cms.com"
+    static let contentHubId = "00000000-0000-0000-0000-00000000000"
+    static let domainName = "https://your-domain-name.com"
     static let path = "api/\(contentHubId)"
     static let baseURL = "\(domainName)/\(path)"
     static let searchURL = "\(baseURL)/delivery/v1/search"
